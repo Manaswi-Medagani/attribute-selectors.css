@@ -1,0 +1,114 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiplayer FRIENSHIP SONGS</title>
+    <style>
+         body, h1, ul {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #ce2169;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .music-player {
+            background-color: #ce2169;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(41, 192, 219, 0.2);
+            padding: 20px;
+            width: 300px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .music-player h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+            text-align: center;
+        }
+
+        .music-player ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .music-player li {
+            padding: 10px;
+            border-bottom: 1px solid #ce2169;
+            cursor: pointer;
+        }
+
+        .music-player li:last-child {
+            border-bottom: none;
+        }
+
+        .music-player li[data-song$=".mp3"] {
+            background-color: #ce2169;
+        }
+
+        .music-player li[data-song^="song"] {
+            color: #333;
+        }
+
+        .music-player li:hover {
+            background-color: hsl(335, 79%, 40%);
+        }
+
+        .music-player li:hover[data-song$=".mp3"] {
+            background-color: hsl(335, 79%, 40%);
+        }
+
+        .music-player li:hover[data-song^="song"] {
+            color: #000;
+        }
+         
+    </style>
+    </head>
+    <body>
+        <div>
+            <audio controls autoplay muted loop>
+            <source src= "./01 - Musthafa - SenSongsMp3.Co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./03 - Sneha Bandham - SenSongsMp3.Co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./Choti Choti Baatein - SenSongsMp3.Co - Copy.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./Trend Maarina Friend Maaradu-SenSongsMp3.Co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./Dhoom Dhaam Dhosthaan.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./01_-_Snehamante - SenSongsMp3.co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./03 - Sneha Bandham - SenSongsMp3.Co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./Ekkado Putti - SenSongsMp3.Co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./Friendshippe Thiyyani-SenSongsMp3.Co.mp3" type="audio/mp3">
+            </audio><br>
+            <audio controls autoplay muted loop>
+                <source src="./Kerintha - SenSongsmp3.Co.mp3" type="audio/mp3">
+            </audio> <br>
+        </div>
+
+    </body>
+    </html>
+
